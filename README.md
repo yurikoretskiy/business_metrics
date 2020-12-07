@@ -1,40 +1,12 @@
-Business Analytics: optimize marketing expenses for online platform.
-
-Project tasks:
-How people use the product
-When they start to buy
-How much money each customer brings
-When they pay off
-
-Initial data:
-visit logs
-orders
-marketing expenses
-
-
-Decomposition:
-Unique users per day, week, and month
-Sessions per day, week, and month
-Session length distribution
-Sales time lag
-Orders per day, week, and month
-Orderd per cohort
-Average purchase size
-Churn, Retention
-LTV
-CAC
-ROI of sources
-
-# business_metrics
-Cohort Analysis
-
-
 # Description:
-Analyze efficiency of marketing expenses on users aquisition.
-
+Analyze efficiency and calclulate business metrics of users acquisition upon logs of visit, orders and marketing expenses. 
 
 ## Goal:
-Analyze the results for an A/B test for an online store; Provide conclusions.
+Optimize marketing expenses for online platform.
+
+## Research extracts:
+- Churn, Retention
+- LTV, CAC, ROI
 
 ## Some extracts of graphs:
 ![](https://github.com/yurikoretskiy/business_metrics/blob/main/images/User%20Retention.png)
@@ -50,11 +22,8 @@ https://github.com/yurikoretskiy/business_metrics/blob/main/business_analytics_c
 
 ## Libraries used:
 
-pandas,\
+pandas,numpy,
 
-numpy,
-
-matplotlib,
-seaborn,
+matplotlib,seaborn,
 
 scipy
